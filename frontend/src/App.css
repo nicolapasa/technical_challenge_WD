@@ -1,8 +1,12 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+
 
 body {
 
   background-color: rgb(153, 102, 200);
+ 
+font-family: 'Poppins', sans-serif;
 }
 a{text-decoration: none;}
 .title{margin: 0 auto;
@@ -54,13 +58,18 @@ text-align: center;}
 .phone{
   margin: 0 auto;
   text-align: center;
+  display: grid;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(185, 228, 200);
+  grid-template-columns: 1fr 1fr;
+  width: 1000px;
+  margin-top: 2rem;
 }
 
 .phone img{
-  margin-bottom: 1rem;
-  border-radius: 20px;
-  box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-  width: 50%;
+
+  width: 100%;
 }
 
 .phone a{
@@ -69,4 +78,17 @@ text-align: center;}
   border-radius: 20px;
   box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
   color:aliceblue;
+}
+.phone div{
+  text-align: left;
+  padding: 2rem;
+}
+.phone p{
+  padding: 2rem 0;
+
+}
+
+.right{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }

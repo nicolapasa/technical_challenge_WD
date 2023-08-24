@@ -40,6 +40,7 @@ const HomePage = () => {
              <h2> {phone.name}</h2>
             
              <img src={`/images/${phone.imageFileName}`} alt="" />
+             <h2>{phone.price} €</h2>
              <Link to={`/${phone.id}`} >Details</Link>
            
            </div>
